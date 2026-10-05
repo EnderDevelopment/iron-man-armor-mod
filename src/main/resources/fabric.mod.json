@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ironmanarmormod",
+  "version": "1.0.0",
+  "name": "Iron Man Armor Mod",
+  "description": "A mod that adds Iron Man armor which allows flight.",
+  "authors": ["ivonwobodo"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ivonwobodo.ironmanarmormod.Main"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4"
+  }
+}
